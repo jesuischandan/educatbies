@@ -1,0 +1,245 @@
+body {
+    font-family: cursive;
+    color:black;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    /* background: url('img/GYM01.jpg'); */
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 136px;
+    /* filter: invert(100%); */
+}
+
+.left div {
+    text-align: center;
+    line-height: 24px;
+    font-size: 21px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 53px auto;
+    /* border: 2px solid yellow; */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 46px;
+    display: inline-block;
+    /* border: 2px solid green; */
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: cursive;
+    margin: 0px 13px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(39, 37, 37);
+}
+/* for image slider */
+.section{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.slider{
+    width: 800px;
+    height: 500px;         
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slide input{
+    display: none;
+}
+.st{
+    width: 20%;
+    transition: 2s; 
+}
+.st img{
+    width: 800px;
+    height: 500px;
+}
+.nav-m{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+}
+.m-btn{
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background-color: #23e3c2;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~.first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+/* css for automatic navigation */
+ .nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.nav-auto div{
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1{
+    background: #23e3c2;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+    background: #23e3c2;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+    background: #23e3c2;
+}
+#radio4:checked ~ .nav-auto .a-b4{
+    background: #23e3c2;
+}
+
+
+.container {
+    border: 2px solid white;
+    margin: 145px auto;
+    padding: 60px;
+    width: 73%;
+    border-radius: 23px;
+}
+
+.form-group input {
+    font-size: 20px;
+    font-family: cursive;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    width: 508px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.welcome {
+    text-align: center;
+    display:flex;
+    position:absolute;
+    /* border: 2px solid green; */
+    margin-bottom: 620px;
+
+}
+.p-line{
+    display: flex;
+    position: absolute;
+    margin-top: 620px;
+    color: green;
+    /* border: 2px solid green; */
+}
+
+.container button {
+    margin: 29px auto;
+    width: 104%;
+    display: block;
+    padding: 5px;
+}
+.intro{
+    text-align: center;
+    width: 1200px;
+    margin: 10px auto;
+}
+.purpose{
+    margin: 0% 5%;
+}
+.purposehead{
+    margin: 1% 5%;
+}
+.aim{
+    margin: 0% 5%;
+    border: 2px red solid;
+    display: flex;
+}
+.aim p{
+    width: 50%;
+    margin-top: 5%;
+}
+/* .aim img{
+    position: absolute;
+    display: 
+} */
+
+.review{
+    margin: 5% 5%;
+}

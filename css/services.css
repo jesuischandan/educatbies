@@ -1,0 +1,109 @@
+body {
+    font-family: cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    /* background: url('img/GYM01.jpg'); */
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    line-height: 24px;
+    font-size: 21px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 53px auto;
+    /* border: 2px solid yellow; */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 46px;
+    display: inline-block;
+    /* border: 2px solid green; */
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: cursive;
+    margin: 0px 13px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(39, 37, 37);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 145px auto;
+    padding: 60px;
+    width: 73%;
+    border-radius: 23px;
+}
+
+.form-group input {
+    font-size: 20px;
+    font-family: cursive;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    width: 508px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    margin: 29px auto;
+    width: 104%;
+    display: block;
+    padding: 5px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>EDUCATBIES - Let's Wing the Dreams</title>
+</head>
+
+<body>
+    <header>
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/EDUCATBIES logo.png" alt="">
+            <!-- <div>Educatbes</div> -->
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Log In</button>
+            <button class="btn">Sign Up</button>
+        </div>
+    </header>
+        <section class="section">
+            <div class="welcome">
+                <h1>Welcome to EDUCATBIES</h1>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="st first">
+                        <img src="img/img1.jpg" alt="">
+                    </div>
+
+                    <div class="st">
+                        <img src="img/img2.jpg" alt="">
+                    </div>
+
+                    <div class="st">
+                        <img src="img/img3.jpg" alt="">
+                    </div>
+
+                    <div class="st">
+                        <img src="img/img4.jpg" alt="">
+                    </div>
+
+                    <div class="nav-auto">
+                        <div class="a-b1"></div>
+                        <div class="a-b2"></div>
+                        <div class="a-b3"></div>
+                        <div class="a-b4"></div>
+                    </div>
+                </div>
+                <div class="nav-m">
+                    <label for="radio1" class="m-btn"></label>
+                    <label for="radio2" class="m-btn"></label>
+                    <label for="radio3" class="m-btn"></label>
+                    <label for="radio4" class="m-btn"></label>
+                </div>
+            </div>
+            <div class="p-line">
+                <h3>Let's Wing the Dreams</h3>
+            </div>
+        </section>
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked= true;
+                counter++;
+               if(counter > 4){
+                    counter = 1;
+                }
+            },5000);
+
+        </script>
+        <p class="intro">We are here to help ! <br> We are a team of educators from all across the globe to help students to upskill their current skills or acquire a totally new skills set. We provide private classes for several courses in Paris and its Suburbs </p>
+        <h2 class="purposehead">Purpose</h2>
+    <div class="purpose">
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium natus placeat quam iure quasi quos ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae magni cumque officiis tempore sapiente reprehenderit ex repudiandae, reiciendis vitae sequi rem, enim deserunt id officia doloribus, mollitia iusto ipsum recusandae? veritatis omnis sed corporis beatae nostrum et, possimus eius sit nulla magnam ut necessitatibus.</p>
+    </div>
+    <div class="aim">
+        <h2>Aim . . .</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, dolores reprehenderit est ut facilis earum ipsam dicta maxime nulla sint natus quasi quo impedit explicabo quos. Explicabo magni nostrum eius?</p>
+        <img src="img/aim.png" alt="aim">
+    </div>
+    
+    <div class="review">
+        <h2>Review .//</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, amet obcaecati. Blanditiis dicta veritatis explicabo harum reiciendis impedit repudiandae quasi fuga atque. Porro temporibus alias animi officiis eos quas aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut delectus minima eveniet dignissimos aliquam dolorum sapiente rerum quae quod dolores, veniam cum ducimus asperiores voluptatum obcaecati voluptate accusamus incidunt esse! </p>
+    </div>
+
+</body>
+
+</html>
